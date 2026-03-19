@@ -1,0 +1,14 @@
+{
+    "functions": {
+        "app/api/prices/route.js": {
+            "regions": [
+                "syd1"
+            ]
+        },
+        "app/api/coles-proxy/route.js": {
+            "regions": [
+                "syd1"
+            ]
+        }
+    }
+}

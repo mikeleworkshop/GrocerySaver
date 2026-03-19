@@ -3,21 +3,17 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBntoQSzPqeoEVpR0Vo-pMSENbTqkMtBhc",
-  authDomain: "studentsaver-af691.firebaseapp.com",
-  projectId: "studentsaver-af691",
-  storageBucket: "studentsaver-af691.firebasestorage.app",
-  messagingSenderId: "888791190500",
-  appId: "1:888791190500:web:249f0cc2b7ec5b0d5415f1",
-  measurementId: "G-WZVSEPVM66"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
-//
+
 // Initialize Firebase (only in browser to avoid SSR errors)
 const app = initializeApp(firebaseConfig);
 const analytics =

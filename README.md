@@ -2,8 +2,8 @@
 
 GrocerySaver is a budgeting helper built for students, focused on making it easier to track grocery spending, save money, and stay on top of everyday expenses. Built during UNIHACK 2026 by StudentSaver Team.
 
-[![Email Me](https://img.shields.io/badge/Email?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mike.lemanh@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mike-le-13a177140/)
+[![Email Me](https://img.shields.io/badge/Email-Contact-White?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mike.lemanh@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Networking-Blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mike-le-13a177140/)
 
 ## Overview
 

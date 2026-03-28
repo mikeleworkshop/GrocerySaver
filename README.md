@@ -29,6 +29,39 @@ GrocerySaver is designed for one primary user group:
 - **Hosting:** Vercel
 - **Language:** JavaScript / TypeScript
 
+## Screenshots
+
+This is what our GrocerySaver looks alike:
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+  <div style="flex: 0 0 45%; margin-bottom: 10px;">
+    <img src="screenshots/UserLogin.png" alt="Login Page" style="width: 100%;">
+    <p align="center"><strong>Login/Register Page</strong></p>
+  </div>
+
+  <div style="flex: 0 0 45%; margin-bottom: 10px;">
+    <img src="screenshots/HomePage.png" alt="Homepage" style="width: 100%;">
+    <p align="center"><strong>Home Page</strong></p>
+  </div>
+
+  <div style="flex: 0 0 45%; margin-bottom: 10px;">
+    <img src="screenshots/UserBudget.png" alt="User puts on their Budget on this page" style="width: 100%;">
+    <p align="center"><strong>User puts on their Budget on this page</strong></p>
+  </div>
+
+  <div style="flex: 0 0 45%; margin-bottom: 10px;">
+    <img src="screenshots/ComparePrice.png" alt="Store Price Comparison" style="width: 100%;">
+    <p align="center"><strong>Store Price Comparison Page</strong></p>
+  </div>
+
+  <div style="flex: 0 0 45%; margin-bottom: 10px;">
+    <img src="screenshots/ViewPrice.png" alt="User views the price comparison between stores" style="width: 100%;">
+    <p align="center"><strong>User views the price comparison between stores</strong></p>
+  </div>
+
+</div>
+
 ## Getting Started
 
 ### Prerequisites
